@@ -1,0 +1,238 @@
+html {
+	height: 100%;
+}
+
+body {
+  display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+#block {
+	background: linear-gradient(to top, #622583, #2d2e81, #242025);
+	/* position: fixed; */
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+div:nth-child(1){
+	position: fixed;
+	top: 80vh;
+	left: 20vw;
+}
+div:nth-child(2){
+	position: fixed;
+	top: 76vh;
+	left: 50vw;
+}
+div:nth-child(3){
+	position: fixed;
+	top: 50vh;
+	left: 26vw;
+}
+div:nth-child(4){
+	position: fixed;
+	top: 66vh;
+	left: 78vw;
+}
+div:nth-child(5){
+	position: fixed;
+	top: 90vh;
+	left: 88vw;
+}
+div:nth-child(6){
+	position: fixed;
+	top: 95vh;
+	left: 65vw;
+}
+div:nth-child(7){
+	position: fixed;
+	top: 67vh;
+	left: 15vw;
+}
+div:nth-child(8){
+	position: fixed;
+	top: 88vh;
+	left: 8vw;
+}
+div:nth-child(9){
+	position: fixed;
+	top: 92vh;
+	left: 50vw;
+}
+div:nth-child(10){
+	position: fixed;
+	top: 65vh;
+	left: 50vw;
+}
+div:nth-child(11){
+	position: fixed;
+	top: 78vh;
+	left: 85vw;
+}
+div:nth-child(12){
+	position: fixed;
+	top: 58vh;
+	left: 87vw;
+}
+div:nth-child(13){
+	position: fixed;
+	top: 40vh;
+	left: 7vw;
+}
+div:nth-child(14){
+	position: fixed;
+	top: 54vh;
+	left: 9vw;
+}
+div:nth-child(15){
+	position: fixed;
+	top: 53vh;
+	left: 96vw;
+}
+div:nth-child(16){
+	position: fixed;
+	top: 30vh;
+	left: 14vw;
+}
+div:nth-child(17){
+	position: fixed;
+	top: 45vh;
+	left: 85vw;
+}
+div:nth-child(18){
+	position: fixed;
+	top: 10vh;
+	left: 6vw;
+}
+div:nth-child(19){
+	position: fixed;
+	top: 30vh;
+	left: 80vw;
+}
+div:nth-child(20){
+	position: fixed;
+	top: 20vh;
+	left: 38vw;
+}
+div:nth-child(21){
+	position: fixed;
+	top: 19vh;
+	left: 88vw;
+}
+div:nth-child(22){
+	position: fixed;
+	top: 70vh;
+	left: 200vw;
+}
+div:nth-child(23){
+	position: fixed;
+	top: 5vh;
+	left: 17vw;
+}
+div:nth-child(24){
+	position: fixed;
+	top: 70vh;
+	left: 100vw;
+}
+div:nth-child(25){
+	position: fixed;
+	top: 4vh;
+	left: 77vw;
+}
+.rave {
+position: absolute;
+z-index: 99;
+width: 50
+}
+
+/* анимация с бонсом */
+.greenman {
+	position: absolute;
+	z-index: 100;
+	position: absolute;
+	top: 26vh;
+	left: 9vw;
+	width: 30vw;
+}
+
+/* тут будет другая картинка */
+.pinkman {
+	z-index: 98;
+}
+
+.purpleman {
+	z-index: 100;
+	position:absolute;
+	top: 50vh;
+	left: 60vw;
+	width: 40vw;
+}
+
+.blaster {
+	z-index: 100;
+	position: absolute;
+	top: 35vh;
+	left: 50vw;
+	width: 35vw;
+}
+
+/* тут тоже, потому что  у меня кривые руки и я не умею нормально ниче делать */
+.ufo {
+	z-index: 100;
+
+}
+
+/* передвижение */
+.rocket {
+	z-index: 98;
+	position: absolute;
+	width: 30vw;
+	top: 5vh;
+	left: -7vw;
+}
+
+.container {
+	align-content: space-between;
+	display: flex;
+	flex-wrap: wrap;
+}
+.container div {
+	width: 5px;
+	height: 5px;
+	border-radius: 100%;
+	background: white;
+	animation: change-opacity 1s ease infinite;
+	animation-delay: 0.1s;
+}
+body .container div:nth-of-type(odd) {
+  width: 3px;
+	height: 3px;
+	border-radius: 100%;
+	animation: change-opacity-2 1s ease infinite;
+}
+
+@keyframes change-opacity {
+	0% {
+		opacity: 0%;
+	}
+	50% {
+	opacity: 50%;
+  }
+	100% {
+		opacity: 100%;
+	}
+}
+@keyframes change-opacity-2 {
+	0% {
+		opacity: 100%;
+	}
+	50% {
+		opacity: 50%;
+	}
+	100% {
+		opacity: 0%;
+	}
+}
