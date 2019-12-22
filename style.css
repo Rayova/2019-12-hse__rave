@@ -471,7 +471,6 @@ body .container div:nth-of-type(odd) {
 	}
 
 	@media (min-height: 812px) {
-  overflow: hidden;
 	.rave {
     width: 436%;
     left: -80vw;
@@ -513,6 +512,14 @@ body .container div:nth-of-type(odd) {
 	top: 226vh;
 	left: 49vw;
 	width: 139vw;
+}
+.ufo {
+	 width: 80vw;
+	 position: absolute;
+	 top: -8vh;
+	 left: 204vw;
+	 z-index: 96;
+	 animation: swing 5s ease infinite;
 }
 div:nth-child(1) {
 	position: fixed;
