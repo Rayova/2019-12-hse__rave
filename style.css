@@ -469,4 +469,48 @@ body .container div:nth-of-type(odd) {
 		left: 12vw;
 		top: 14vh;
 	}
-	.container
+
+	@media (min-height: 812px) {
+	.rave {
+	width: 424vw;
+	left: -68vw;
+	top: 12vh;
+	}
+	.greenman {
+  width: 117vw;
+  left: 12vw;
+  top: 14vh;
+}
+.purpleman {
+	width: 176vw;
+	left: 111vw;
+	top: 51vh;
+}
+ .blaster {
+	width: 126vw;
+	left: 107vw;
+	top: 10vh;
+}
+.rocket {
+	z-index: 98;
+	position: absolute;
+	width: 111vw;
+	top: 252vh;
+	left: -52vw;
+}
+.antony {
+	width: 117vw;
+	top: 110vh;
+	left: 17vw;
+}
+.marine {
+	width: 87vw;
+	left: 170vw;
+	top: 162vh;
+}
+.black {
+	top: 226vh;
+	left: 49vw;
+	width: 139vw;
+}
+	}
