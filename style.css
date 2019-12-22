@@ -161,17 +161,17 @@ width: 50
 
 .antony {
   position: absolute;
-	z-index: 99;
-	width: 35vw;
-	top: 70vh;
-	left: 8vw;
+	z-index: 100;
+	width: 28vw;
+	top: 50vh;
+	left: 5vw;
 	animation: bounce 7s ease infinite;
 }
 
 .purpleman {
 	z-index: 100;
 	position:absolute;
-	top: 40vh;
+	top: 20vh;
 	left: 60vw;
 	width: 40vw;
 	animation: bounce 4s ease infinite;
@@ -180,18 +180,10 @@ width: 50
 .blaster {
 	z-index: 100;
 	position: absolute;
-	top: 25vh;
+	top: 10vh;
 	left: 50vw;
 	width: 35vw;
 	animation: bounce 3s ease infinite;
-}
-
-.ufo {
-	z-index: 96;
-  position: absolute;
-	top: 80vh;
-	left: 60vw;
-	animation: swing 5s ease infinite;
 }
 
 /* передвижение */
@@ -201,6 +193,24 @@ width: 50
 	width: 30vw;
 	top: 5vh;
 	left: -7vw;
+}
+
+.black {
+	z-index: 100;
+	position: absolute;
+	width: 30vw;
+	top: 100vh;
+	left: 40vw;
+	animation: bounce 4s ease infinite;
+}
+
+.marine {
+	z-index: 100;
+	position: absolute;
+	top: 65vh;
+	left: 75vw;
+	width: 23vw;
+	animation: bounce 6s ease infinite;
 }
 
 .container {
@@ -221,6 +231,15 @@ body .container div:nth-of-type(odd) {
 	height: 3px;
 	border-radius: 100%;
 	animation: change-opacity-2 1s ease infinite;
+}
+
+.ufo {
+	width: 25vw;
+	position: absolute;
+	top: 120vh;
+	left: 16vw;
+	z-index: 96;
+	animation: swing 5s ease infinite;
 }
 
 @keyframes change-opacity {
@@ -411,4 +430,38 @@ body .container div:nth-of-type(odd) {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
   }
+}
+
+@media screen and (max-width: 320px) {
+  .rave {
+		width: 150%;
+		left: -25vw;
+		top: 3vh;
+	}
+	.black {
+		top: 110vh;
+		left: 24vw;
+		width: 50vw;
+	}
+	.marine {
+		width: 40vw;
+		left: 60vw;
+  }
+	.antony {
+		width: 40vw;
+		top: 55vh;
+	}
+	.purpleman {
+		width: 60vw;
+		left: 43vw;
+	}
+	.blaster {
+		width: 45vw;
+		left: 37vw;
+	}
+	.greenman {
+		width: 40vw;
+		left: 3vw;
+	}
+
 }
