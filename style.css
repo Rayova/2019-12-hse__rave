@@ -467,6 +467,14 @@ body .container div:nth-of-type(odd) {
 		left: 5vw;
 		top: 10vh;
 	}
-
-
+ @media (min-width: 375px) {
+	 .rave {
+ 		width: 300%;
+ 		left: -20vw;
+ 		top: 7vh;
+}
+.greenman {
+	width: 30vw;
+	left: 30vw;
+	top: 10vh;
 }
