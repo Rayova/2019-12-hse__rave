@@ -471,11 +471,12 @@ body .container div:nth-of-type(odd) {
 	}
 
 	@media (min-height: 812px) {
+  overflow: hidden;
 	.rave {
-	width: 424vw;
-	left: -68vw;
-	top: 12vh;
-	}
+    width: 436%;
+    left: -80vw;
+    top: 2vh;
+}
 	.greenman {
   width: 117vw;
   left: 12vw;
@@ -512,5 +513,60 @@ body .container div:nth-of-type(odd) {
 	top: 226vh;
 	left: 49vw;
 	width: 139vw;
+}
+div:nth-child(1) {
+	position: fixed;
+	top: 282vh;
+	left: 262vw;
+}
+div:nth-child(5) {
+    position: fixed;
+    top: 285vh;
+    left: 88vw;
+}
+div:nth-child(2) {
+	 position: fixed;
+	 top: 209vh;
+	 left: 255vw;
+}
+div:nth-child(3) {
+	 position: fixed;
+	 top: 204vh;
+	 left: 123vw;
+}
+div:nth-child(4) {
+	 position: fixed;
+	 top: 174vh;
+	 left: 18vw;
+}
+div:nth-child(6) {
+	 position: fixed;
+	 top: 95vh;
+	 left: 275vw;
+}
+div:nth-child(16) {
+    position: fixed;
+    top: 234vh;
+    left: 11vw;
+}
+div:nth-child(18) {
+	 position: fixed;
+	 top: 22vh;
+	 left: 274vw;
+}
+div:nth-child(19) {
+	 position: fixed;
+	 top: 152vh;
+	 left: 260vw;
+}
+div:nth-child(23) {
+    position: fixed;
+    top: 293vh;
+    left: 17vw;
+}
+div:nth-child(25) {
+	 position: fixed;
+	 top: 143vh;
+	 left: 137vw;
 }
 	}
