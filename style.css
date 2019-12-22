@@ -153,9 +153,9 @@ width: 50
 	position: absolute;
 	z-index: 100;
 	position: absolute;
-	top: 15vh;
+	/* top: 15vh;
 	left: 9vw;
-	width: 25vw;
+	width: 25vw; */
 	animation: bounce 5s ease infinite;
 }
 
@@ -163,26 +163,26 @@ width: 50
   position: absolute;
 	z-index: 100;
 	width: 28vw;
-	top: 50vh;
-	left: 5vw;
+	/* top: 50vh;
+	left: 5vw; */
 	animation: bounce 7s ease infinite;
 }
 
 .purpleman {
 	z-index: 100;
 	position:absolute;
-	top: 20vh;
+	/* top: 20vh;
 	left: 60vw;
-	width: 40vw;
+	width: 40vw; */
 	animation: bounce 4s ease infinite;
 }
 
 .blaster {
 	z-index: 100;
 	position: absolute;
-	top: 10vh;
+	/* top: 10vh;
 	left: 50vw;
-	width: 35vw;
+	width: 35vw; */
 	animation: bounce 3s ease infinite;
 }
 
@@ -199,16 +199,16 @@ width: 50
 	z-index: 100;
 	position: absolute;
 	width: 30vw;
-	top: 100vh;
-	left: 40vw;
+	/* top: 100vh;
+	left: 40vw; */
 	animation: bounce 4s ease infinite;
 }
 
 .marine {
 	z-index: 100;
 	position: absolute;
-	top: 65vh;
-	left: 75vw;
+	/* top: 65vh;
+	left: 75vw; */
 	width: 23vw;
 	animation: bounce 6s ease infinite;
 }
@@ -432,11 +432,11 @@ body .container div:nth-of-type(odd) {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media (max-width: 320px) {
   .rave {
 		width: 150%;
-		left: -25vw;
-		top: 3vh;
+		left: -20vw;
+		top: 7vh;
 	}
 	.black {
 		top: 110vh;
@@ -446,6 +446,7 @@ body .container div:nth-of-type(odd) {
 	.marine {
 		width: 40vw;
 		left: 60vw;
+		top: 65vh;
   }
 	.antony {
 		width: 40vw;
@@ -453,15 +454,19 @@ body .container div:nth-of-type(odd) {
 	}
 	.purpleman {
 		width: 60vw;
-		left: 43vw;
+		left: 47vw;
+		top: 25vh;
 	}
 	.blaster {
 		width: 45vw;
-		left: 37vw;
+		left: 39vw;
+		top: 10vh;
 	}
 	.greenman {
 		width: 40vw;
-		left: 3vw;
+		left: 5vw;
+		top: 10vh;
 	}
+
 
 }
