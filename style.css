@@ -6,6 +6,7 @@ body {
   display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	overflow: hidden;
 }
 
 #block {
@@ -467,4 +468,3 @@ body .container div:nth-of-type(odd) {
 		left: 5vw;
 		top: 10vh;
 	}
- 
