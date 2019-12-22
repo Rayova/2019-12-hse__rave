@@ -21,17 +21,17 @@ body {
 div:nth-child(1){
 	position: fixed;
 	top: 80vh;
-	left: 20vw;
+	left: 90vw;
 }
 div:nth-child(2){
 	position: fixed;
-	top: 76vh;
-	left: 50vw;
+	top: 80vh;
+	left: 80vw;
 }
 div:nth-child(3){
 	position: fixed;
-	top: 50vh;
-	left: 26vw;
+	top: 99vh;
+	left: 123vw;
 }
 div:nth-child(4){
 	position: fixed;
@@ -50,8 +50,8 @@ div:nth-child(6){
 }
 div:nth-child(7){
 	position: fixed;
-	top: 67vh;
-	left: 15vw;
+	top: 128vh;
+	left: 31vw;
 }
 div:nth-child(8){
 	position: fixed;
@@ -60,13 +60,13 @@ div:nth-child(8){
 }
 div:nth-child(9){
 	position: fixed;
-	top: 92vh;
-	left: 50vw;
+	top: 113vh;
+	left: 9vw;
 }
 div:nth-child(10){
 	position: fixed;
-	top: 65vh;
-	left: 50vw;
+	top: 40vh;
+	left: 117vw;
 }
 div:nth-child(11){
 	position: fixed;
@@ -75,13 +75,13 @@ div:nth-child(11){
 }
 div:nth-child(12){
 	position: fixed;
-	top: 58vh;
-	left: 87vw;
+	top: 130vh;
+	left: 106vw;
 }
 div:nth-child(13){
 	position: fixed;
-	top: 40vh;
-	left: 7vw;
+	top: 72vh;
+	left: 120vw;
 }
 div:nth-child(14){
 	position: fixed;
@@ -220,16 +220,16 @@ width: 50
 	flex-wrap: wrap;
 }
 .container div {
-	width: 5px;
-	height: 5px;
+	width: 7px;
+	height: 7px;
 	border-radius: 100%;
 	background: white;
 	animation: change-opacity 1s ease infinite;
 	animation-delay: 0.1s;
 }
 body .container div:nth-of-type(odd) {
-  width: 3px;
-	height: 3px;
+  width: 5px;
+	height: 5px;
 	border-radius: 100%;
 	animation: change-opacity-2 1s ease infinite;
 }
@@ -436,35 +436,37 @@ body .container div:nth-of-type(odd) {
 @media (min-width: 320px) {
   .rave {
 		width: 150%;
-		left: -20vw;
-		top: 7vh;
+		left: -11vw;
+		top: 12vh;
 	}
 	.black {
-		top: 110vh;
-		left: 24vw;
+		top: 96vh;
+		left: 37vw;
 		width: 50vw;
 	}
 	.marine {
-		width: 40vw;
-		left: 60vw;
-		top: 65vh;
+		width: 34vw;
+		left: 80vw;
+		top: 61vh;
   }
 	.antony {
-		width: 40vw;
-		top: 55vh;
+		width: 42vw;
+		top: 46vh;
+		left: 9vw;
 	}
 	.purpleman {
 		width: 60vw;
-		left: 47vw;
-		top: 25vh;
+		left: 66vw;
+		top: 22vh;
 	}
 	.blaster {
 		width: 45vw;
-		left: 39vw;
+		left: 56vw;
 		top: 10vh;
 	}
 	.greenman {
 		width: 40vw;
-		left: 5vw;
-		top: 10vh;
+		left: 12vw;
+		top: 14vh;
 	}
+	.container
