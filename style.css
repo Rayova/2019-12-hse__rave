@@ -577,3 +577,14 @@ div:nth-child(25) {
 	 left: 137vw;
 }
 	}
+	@media (min-width: 768px; min-height: 717px) {
+		.ufo {
+	    width: 25vw;
+	    position: absolute;
+	    top: 213vh;
+	    left: 16vw;
+	    z-index: 96;
+	    animation: swing 5s ease infinite;
+	}
+		
+	}
