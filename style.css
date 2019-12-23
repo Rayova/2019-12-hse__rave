@@ -579,12 +579,157 @@ div:nth-child(25) {
 	}
 	@media (min-width: 768px; min-height: 717px) {
 		.ufo {
-	    width: 25vw;
+	    width: 35vw;
 	    position: absolute;
-	    top: 213vh;
-	    left: 16vw;
+	    top: 200vh;
+	    left: 3vw;
 	    z-index: 96;
 	    animation: swing 5s ease infinite;
 	}
-		
+.black {
+    top: 182vh;
+    left: 78vw;
+    width: 50vw;
+}
+.marine {
+    width: 34vw;
+    left: 34vw;
+    top: 149vh;
+}
+.antony {
+    width: 42vw;
+    top: 64vh;
+    left: 13vw;
+}
+.purpleman {
+    width: 60vw;
+    left: 73vw;
+    top: 68vh;
+}
+.blaster {
+    width: 45vw;
+    left: 65vw;
+    top: 47vh;
+}
+.greenman {
+    width: 40vw;
+    left: 40vw;
+    top: 10vh;
+}
+.greenman {
+    width: 40vw;
+    left: 40vw;
+    top: 10vh;
+}
+	}
+	@media (min-width: 1024px, min-height: 956px) {
+		.ufo {
+    width: 89vw;
+    position: absolute;
+    top: 574vh;
+    left: 204vw;
+    z-index: 96;
+    animation: swing 5s ease infinite;
+}
+.black {
+    top: 506vh;
+    left: 49vw;
+    width: 139vw;
+}
+.marine {
+    width: 87vw;
+    left: 220vw;
+    top: 352vh;
+}
+.antony {
+    width: 117vw;
+    top: 234vh;
+    left: 17vw;
+}
+.purpleman {
+    width: 176vw;
+    left: 161vw;
+    top: 118vh;
+}
+.blaster {
+    width: 136vw;
+    left: 127vw;
+    top: 40vh;
+}
+.greenman {
+    width: 117vw;
+    left: 12vw;
+    top: 24vh;
+}
+.rocket {
+    z-index: 98;
+    position: absolute;
+    width: 126vw;
+    top: -18vh;
+    left: 169vw;
+}
+	}
+	@media (min-width: 425px, min-height: 717px) {
+		.rave {
+    width: 180vw;
+    left: -42vw;
+    top: 19vh;
+}
+.greenman {
+    width: 47vw;
+    left: 6vw;
+    top: 7vh;
+}
+.purpleman {
+    width: 68vw;
+    left: 35vw;
+    top: 44vh;
+}
+.blaster {
+    width: 52vw;
+    left: 25vw;
+    top: 29vh;
+}
+.rocket {
+    z-index: 98;
+    position: absolute;
+    width: 67vw;
+    top: -8vh;
+    left: 30vw;
+}
+.antony {
+    width: 43vw;
+    top: 77vh;
+    left: 3vw;
+}
+.marine {
+    width: 34vw;
+    left: 59vw;
+    top: 112vh;
+}
+.black {
+    top: 153vh;
+    left: 16vw;
+    width: 51vw;
+}
+.ufo {
+    width: 41vw;
+    position: absolute;
+    top: 163vh;
+    left: 62vw;
+    z-index: 96;
+    animation: swing 5s ease infinite;
+}
+	}
+	@media (min-width: 320px, min-heigth: 717px) {
+		.marine {
+	    width: 34vw;
+	    left: 59vw;
+	    top: 110vh;
+	}
+	.black {
+   top: 134vh;
+   left: 7vw;
+   width: 51vw;
+  } 
 	}
