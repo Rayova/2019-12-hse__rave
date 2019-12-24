@@ -154,9 +154,6 @@ width: 50
 	position: absolute;
 	z-index: 100;
 	position: absolute;
-	/* top: 15vh;
-	left: 9vw;
-	width: 25vw; */
 	animation: bounce 5s ease infinite;
 }
 
@@ -164,30 +161,21 @@ width: 50
   position: absolute;
 	z-index: 100;
 	width: 28vw;
-	/* top: 50vh;
-	left: 5vw; */
 	animation: bounce 7s ease infinite;
 }
 
 .purpleman {
 	z-index: 100;
 	position:absolute;
-	/* top: 20vh;
-	left: 60vw;
-	width: 40vw; */
 	animation: bounce 4s ease infinite;
 }
 
 .blaster {
 	z-index: 100;
 	position: absolute;
-	/* top: 10vh;
-	left: 50vw;
-	width: 35vw; */
 	animation: bounce 3s ease infinite;
 }
 
-/* передвижение */
 .rocket {
 	z-index: 98;
 	position: absolute;
@@ -200,16 +188,12 @@ width: 50
 	z-index: 100;
 	position: absolute;
 	width: 30vw;
-	/* top: 100vh;
-	left: 40vw; */
 	animation: bounce 4s ease infinite;
 }
 
 .marine {
 	z-index: 100;
 	position: absolute;
-	/* top: 65vh;
-	left: 75vw; */
 	width: 23vw;
 	animation: bounce 6s ease infinite;
 }
