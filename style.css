@@ -750,7 +750,7 @@ div:nth-child(25) {
     left: 9vw;
 }
 .black {
-    top: 215vh;
+    top: top: 233vh;
     left: 28vw;
     width: 50vw;
 }
@@ -760,11 +760,12 @@ div:nth-child(25) {
     top: 140vh;
 }
 .ufo {
-    width: 39vw;
+    width: 34vw;
     position: absolute;
-    top: 242vh;
-    left: 0vw;
+    top: 300vh;
+    left: 16vw;
     z-index: 96;
     animation: swing 5s ease infinite;
 }
 	}
+	@media (min-width: 1466px, min-heigh: 982px) {
