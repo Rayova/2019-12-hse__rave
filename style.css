@@ -731,5 +731,56 @@ div:nth-child(25) {
    top: 134vh;
    left: 7vw;
    width: 51vw;
-  } 
+  }
+	@media (min-width: 1024px, min-height:768px ) {
+		.rave {
+    width: 150%;
+    left: -27vw;
+    top: 12vh;
+}
+   .greenman {
+   width: 40vw;
+   left: 12vw;
+   top: 32vh;
+}
+.purpleman {
+    width: 60vw;
+    left: 66vw;
+    top: 52vh;
+}
+.blaster {
+    width: 45vw;
+    left: 56vw;
+    top: 25vh;
+}
+.rocket {
+    z-index: 98;
+    position: absolute;
+    width: 56vw;
+    top: 5vh;
+    left: -7vw;
+}
+.antony {
+    width: 42vw;
+    top: 94vh;
+    left: 9vw;
+}
+.black {
+    top: 215vh;
+    left: 28vw;
+    width: 50vw;
+}
+.marine {
+    width: 34vw;
+    left: 71vw;
+    top: 140vh;
+}
+.ufo {
+    width: 39vw;
+    position: absolute;
+    top: 242vh;
+    left: 0vw;
+    z-index: 96;
+    animation: swing 5s ease infinite;
+}
 	}
