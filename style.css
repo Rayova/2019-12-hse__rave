@@ -417,41 +417,42 @@ body .container div:nth-of-type(odd) {
   }
 }
 
-@media (min-width: 320px) {
-  .rave {
-		width: 150%;
-		left: -11vw;
-		top: 12vh;
-	}
-	.black {
-		top: 96vh;
-		left: 37vw;
-		width: 50vw;
-	}
-	.marine {
-		width: 34vw;
-		left: 80vw;
-		top: 61vh;
-  }
-	.antony {
-		width: 42vw;
-		top: 46vh;
-		left: 9vw;
-	}
-	.purpleman {
-		width: 60vw;
-		left: 66vw;
-		top: 22vh;
-	}
-	.blaster {
-		width: 45vw;
-		left: 56vw;
-		top: 10vh;
-	}
-	.greenman {
-		width: 40vw;
-		left: 12vw;
-		top: 14vh;
+	@media (min-width: 320px) {
+	  .rave {
+			width: 150%;
+			left: -11vw;
+			top: 12vh;
+		}
+		.black {
+			top: 96vh;
+			left: 37vw;
+			width: 50vw;
+		}
+		.marine {
+			width: 34vw;
+			left: 80vw;
+			top: 61vh;
+	  }
+		.antony {
+			width: 42vw;
+			top: 46vh;
+			left: 9vw;
+		}
+		.purpleman {
+			width: 60vw;
+			left: 66vw;
+			top: 22vh;
+		}
+		.blaster {
+			width: 45vw;
+			left: 56vw;
+			top: 10vh;
+		}
+		.greenman {
+			width: 40vw;
+			left: 12vw;
+			top: 14vh;
+		}
 	}
 
 	@media (min-height: 812px) {
@@ -616,15 +617,17 @@ div:nth-child(25) {
     z-index: 96;
     animation: swing 5s ease infinite;
   }
+
 	.black {
     top: 245vh;
     left: 9vw;
     width: 48vw;
   }
+
 	.marine {
-    width: 37vw;
+		width: 53vw;
     left: 70vw;
-    top: 222vh;
+    top: 422vh;
   }
 	.antony {
 		width: 55vw;
@@ -707,7 +710,7 @@ div:nth-child(25) {
     animation: swing 5s ease infinite;
 }
 	}
-	@media (min-width: 320px, min-heigth: 717px) {
+	/* @media (min-width: 320px, min-heigth: 717px) {
 		.marine {
 	    width: 34vw;
 	    left: 59vw;
@@ -718,6 +721,6 @@ div:nth-child(25) {
    left: 7vw;
    width: 51vw;
   }
-}
+} */
 
 1
