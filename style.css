@@ -561,7 +561,7 @@ div:nth-child(25) {
 	 left: 137vw;
 }
 	}
-	@media (min-width: 768px; min-height: 717px) {
+	@media (min-width: 768px) {
 		.ufo {
 	    width: 35vw;
 	    position: absolute;
@@ -627,11 +627,13 @@ div:nth-child(25) {
     top: 222vh;
   }
 	.antony {
-	  top: 67vw;
+		width: 55vw;
+    top: 230vh;
+    left: 97vw;
 	}
 	.purpleman {
-    width: 66vw;
-    left: 61vw;
+    width: 126vw;
+    left: 161vw;
     top: 98vh;
   }
 	.blaster {
@@ -640,7 +642,7 @@ div:nth-child(25) {
     top: 60vh;
   }
 	.greenman {
-		width: 44vw;
+		width: 84vw;
 	  left: 21vw;
 	  top: 24vh;
 	}
@@ -717,3 +719,5 @@ div:nth-child(25) {
    width: 51vw;
   }
 }
+
+1
