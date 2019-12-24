@@ -606,53 +606,53 @@ div:nth-child(25) {
     top: 10vh;
 }
 	}
-	@media (min-width: 1024px, min-height: 956px) {
+
+	@media (min-width: 1024px) {
 		.ufo {
-    width: 89vw;
+    width: 39vw;
     position: absolute;
-    top: 574vh;
-    left: 204vw;
+    top: 297vh;
+    left: 4vw;
     z-index: 96;
     animation: swing 5s ease infinite;
-}
-.black {
-    top: 506vh;
-    left: 49vw;
-    width: 139vw;
-}
-.marine {
-    width: 87vw;
-    left: 220vw;
-    top: 352vh;
-}
-.antony {
-    width: 117vw;
-    top: 234vh;
-    left: 17vw;
-}
-.purpleman {
-    width: 176vw;
-    left: 161vw;
-    top: 118vh;
-}
-.blaster {
-    width: 136vw;
-    left: 127vw;
-    top: 40vh;
-}
-.greenman {
-    width: 117vw;
-    left: 12vw;
-    top: 24vh;
-}
-.rocket {
+  }
+	.black {
+    top: 245vh;
+    left: 9vw;
+    width: 48vw;
+  }
+	.marine {
+    width: 37vw;
+    left: 70vw;
+    top: 222vh;
+  }
+	.antony {
+	  top: 67vw;
+	}
+	.purpleman {
+    width: 66vw;
+    left: 61vw;
+    top: 98vh;
+  }
+	.blaster {
+    width: 56vw;
+    left: 47vw;
+    top: 60vh;
+  }
+	.greenman {
+		width: 44vw;
+	  left: 21vw;
+	  top: 24vh;
+	}
+	.rocket {
     z-index: 98;
     position: absolute;
-    width: 126vw;
+    width: 66vw;
     top: -18vh;
-    left: 169vw;
+    left: -31vw;
+  }
 }
-	}
+
 	@media (min-width: 425px, min-height: 717px) {
 		.rave {
     width: 180vw;
@@ -716,7 +716,7 @@ div:nth-child(25) {
    left: 7vw;
    width: 51vw;
   }
-	@media (min-width: 1024px, min-height:768px ) {
+	/* @media (min-width: 1024px, min-height:768px ) {
 		.rave {
     width: 150%;
     left: -27vw;
@@ -766,6 +766,22 @@ div:nth-child(25) {
     left: 16vw;
     z-index: 96;
     animation: swing 5s ease infinite;
-}
-	}
-	@media (min-width: 1466px, min-heigh: 982px) {
+		}
+	} */
+	@media (min-width: 1024px) {
+		/* .greenman {
+			width: 22vw;
+		}
+		.black {
+			top: 221vh;
+		}
+		.antony {
+			top: 134vh;
+		}
+		.marine {
+			top: 171vh;
+		}
+		.purpleman {
+			top: 22vh;
+		}
+	} */
